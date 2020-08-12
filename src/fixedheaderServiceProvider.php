@@ -35,7 +35,7 @@ class fixedheaderServiceProvider extends ServiceProvider
         });
 
         $this->publishes([
-            __DIR__.'/../config/fixedheader.php' => config_path('FixedHeader.php'),
+            __DIR__.'/../config/fixedheader.php' => config_path('Fixedheader.php'),
         ], 'config');
     }
 
